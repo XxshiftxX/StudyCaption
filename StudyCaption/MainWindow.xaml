@@ -17,10 +17,6 @@
             <TextBlock.Effect>
                 <DropShadowEffect ShadowDepth="0" Color="#FF000000" BlurRadius="8" Opacity="1"/>
             </TextBlock.Effect>
-            <Run Text="평범한 글자 사이에" />
-            <LineBreak/>
-            <Run Text="붉은 색" Foreground="Red" />
-            <Run Text="글씨가 숨어있었습니다."/>
         </TextBlock>
         <StackPanel Grid.Row="1" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Left">
             <Button Name="btn_Play" Width="20" Height="20" Margin="5" Click="btn_Play_Click">▶</Button>
